@@ -1,0 +1,15 @@
+{"slot_id": "b15_s1_mistral_M8", "condition": "ORACLE_BASE", "attempt": 1, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:45:42.379721+00:00"}
+{"slot_id": "b15_s1_mistral_M8", "condition": "ORACLE_BASE", "attempt": 2, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:45:44.199543+00:00"}
+{"slot_id": "b15_s1_mistral_M8", "condition": "ORACLE_BASE", "attempt": 3, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:45:46.012910+00:00"}
+{"slot_id": "b15_s1_mistral_M8", "condition": "ES2", "attempt": 1, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:45:48.369324+00:00"}
+{"slot_id": "b15_s1_mistral_M8", "condition": "ES2", "attempt": 2, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:45:50.174968+00:00"}
+{"slot_id": "b15_s2_mistral_M4", "condition": "ES2", "attempt": 1, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:46:33.934145+00:00"}
+{"slot_id": "b15_s2_mistral_M4", "condition": "ES2", "attempt": 2, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:46:35.838744+00:00"}
+{"slot_id": "b15_s3_mistral_M4", "condition": "ES1", "attempt": 1, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:46:48.307240+00:00"}
+{"slot_id": "b15_s3_mistral_M4", "condition": "ES1", "attempt": 2, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:46:50.117957+00:00"}
+{"slot_id": "b15_s3_mistral_M4", "condition": "ES1", "attempt": 3, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:46:51.967923+00:00"}
+{"slot_id": "b15_s3_mistral_M4", "condition": "ORACLE_EDGE", "attempt": 1, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:46:54.165010+00:00"}
+{"slot_id": "b15_s3_mistral_M4", "condition": "ORACLE_EDGE", "attempt": 2, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:46:55.997774+00:00"}
+{"slot_id": "b15_s6_mistral_M8", "condition": "ES2", "attempt": 1, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:48:29.596782+00:00"}
+{"slot_id": "b15_s6_mistral_M8", "condition": "ORACLE_EDGE", "attempt": 1, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:48:39.376502+00:00"}
+{"slot_id": "b15_s6_mistral_M8", "condition": "ORACLE_EDGE", "attempt": 2, "error": "HTTPError: HTTP Error 429: Too Many Requests", "ts": "2026-08-24T06:48:41.165834+00:00"}

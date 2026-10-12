@@ -1,0 +1,9 @@
+model_key,condition,correct,completed,accuracy
+claude,ES1,10,10,1.000
+claude,ES2,10,10,1.000
+claude,ORACLE_BASE,10,10,1.000
+claude,ORACLE_EDGE,10,10,1.000
+deepseek,ES1,10,10,1.000
+deepseek,ES2,9,10,0.900
+deepseek,ORACLE_BASE,10,10,1.000
+deepseek,ORACLE_EDGE,10,10,1.000

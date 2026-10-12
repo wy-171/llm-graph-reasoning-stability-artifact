@@ -1,0 +1,4 @@
+comparison,condition_a,condition_b,pairs,a_correct,b_correct,a_accuracy,b_accuracy,risk_difference_a_minus_b,ci_low,ci_high,a_only_correct,b_only_correct,mcnemar_exact_two_sided_p,exact_path_agreement
+ES1 vs ES2,ES1,ES2,119,77,72,0.647,0.605,0.042,-0.093,0.176,29,24,0.583132,63
+ORACLE_BASE vs ES2,ORACLE_BASE,ES2,119,100,72,0.840,0.605,0.235,0.126,0.342,42,14,0.000234,63
+ORACLE_EDGE vs ORACLE_BASE,ORACLE_EDGE,ORACLE_BASE,119,89,100,0.748,0.840,-0.092,-0.210,0.025,16,27,0.126289,76

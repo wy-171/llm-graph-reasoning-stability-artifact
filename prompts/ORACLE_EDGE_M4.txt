@@ -1,0 +1,11 @@
+The COMPLETE set of minimum-weight paths from S to T is given below (all have equal, minimum total weight).
+
+- S,A,P,Q,T | weight=12 | edges=4
+- S,A,T | weight=12 | edges=2
+- S,B,T | weight=12 | edges=2
+- S,C,T | weight=12 | edges=2
+
+Choose exactly ONE: the lexicographically SMALLEST path. Compare the node-label sequences position by position; at the first position where they differ, the one whose label is alphabetically earlier is smaller. This is lexicographic order of node labels — NOT the number of edges and NOT the total weight.
+
+End with EXACTLY:
+SELECTED: <node,comma,seq>

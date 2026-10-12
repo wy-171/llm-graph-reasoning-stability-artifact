@@ -1,0 +1,30 @@
+{
+  "experiment_version": "v6A",
+  "master_seed": 20260815,
+  "n_blocks": 20,
+  "graphs": [
+    "M2",
+    "M4",
+    "M8"
+  ],
+  "rule": "min",
+  "conditions": [
+    "ES1",
+    "ES2",
+    "ORACLE_BASE",
+    "ORACLE_EDGE"
+  ],
+  "models": {
+    "mistral": "mistralai/mistral-large-2512",
+    "claude": "anthropic/claude-sonnet-4.6",
+    "deepseek": "deepseek/deepseek-v3.2-exp"
+  },
+  "temperature": null,
+  "code_hash": "400c031ab63a955a",
+  "graph_hashes": {
+    "M2": "e8731d84a0c48de1",
+    "M4": "582f9cc737b4eb9e",
+    "M8": "f4fc6b422d60af76"
+  },
+  "generated_utc": "2026-08-15T06:28:40.006880+00:00"
+}

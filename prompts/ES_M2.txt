@@ -1,0 +1,23 @@
+You are given a weighted directed graph. Nodes are single uppercase letters. S is the source and T is the target.
+
+Edges:
+S -> A (weight 2)
+A -> P (weight 4)
+P -> Q (weight 3)
+Q -> T (weight 3)
+A -> T (weight 10)
+S -> B (weight 1)
+B -> T (weight 12)
+
+Do BOTH steps.
+
+STEP 1 — Enumerate every path from S to T whose TOTAL EDGE WEIGHT is the minimum possible. For EACH such path report the path, its total weight, and its number of edges. (Report each path's own edge count; do not assume they share one.)
+
+STEP 2 — Among the minimum-weight paths from Step 1, choose exactly ONE using this rule:
+  Lexicographic order on the node-label sequence. Write each path as its sequence of node labels from S to T and compare two paths position by position; at the first position where they differ, the one whose node label is alphabetically earlier is lexicographically smaller. Select the lexicographically SMALLEST path.
+The selection rule is lexicographic order of node labels — NOT the number of edges and NOT the total weight.
+
+End your answer with EXACTLY this block and nothing after it:
+MINIMAL PATHS:
+- <node,comma,seq> | weight=<int> | edges=<int>
+SELECTED: <node,comma,seq>
