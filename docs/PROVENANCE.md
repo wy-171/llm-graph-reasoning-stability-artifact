@@ -28,6 +28,18 @@ Two of 560 planned calls failed after three HTTP 429 responses:
 
 They appear in `normalized_results.csv` and their attempts appear in `transport_attempts.jsonl`. No result was imputed. Consequently, paired comparisons use 119 observed pairs, the pooled M4 ES sample contains 79 selections, and the M8 ORACLE_BASE graph cell contains 39 completed calls.
 
+## Separate observable-trace screening
+
+The materials in `trace_screening/` come from three OpenRouter collection rounds conducted on August 13–14, 2026 (UTC):
+
+| Round | Graphs | Runs | Preserved script |
+| --- | --- | ---: | --- |
+| Base | A–B | 30 | `graph_api_pilot.py` |
+| Multiplicity extension | C–D | 30 | `graph_api_followup.py` |
+| Search-burden screening | E–H | 36 | `graph_api_screening.py` |
+
+The combined workbook records 96 HTTP 200 calls, provider generation identifiers, requested and returned model/provider fields, token counts, costs, unaltered visible response text, final-answer checks, and retrospective trace labels. The preserved scripts contain the graph definitions, exact prompt-construction code, model identifiers, locked provider routes, disabled-fallback setting, and omitted-temperature request construction. The per-call JSON envelope files created during collection were not among the recovered files, so the release does not represent the workbook as a byte-for-byte substitute for those envelopes.
+
 ## Release scope
 
-Working archives also contained earlier exploratory rounds with different graph sets, model sets, and schedules. They were excluded from this frozen v6A release, along with unrelated test sets and working backups. No differently structured file has been substituted for a v6A record.
+Working archives also contained earlier exploratory rounds with different graph sets, model sets, and schedules. They were excluded from this release, along with the prior five-service web-client experiment, unrelated test sets, and working backups. No differently structured file has been substituted for a v6A or A–H screening record.

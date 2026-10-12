@@ -56,3 +56,7 @@ The two failed calls have blank response-derived fields. They remain in the norm
 ## Derived result files
 
 `results/answer_stability.csv` reports the number of successful selections, accuracy, modal-answer stability, and Shannon entropy in natural-log units. `results/answer_distributions.csv` gives the underlying canonical-answer counts. `results/paired_comparisons.csv` uses only slots in which both listed conditions were observed. Confidence intervals resample the 20 collection blocks with replacement for 5,000 replicates using seed 1. The McNemar p-values are exact and two-sided.
+
+## Separate screening workbook
+
+The separate A–H observable-trace materials use their own codebook and manifest, preserved inside `trace_screening/graph_api_combined_A-H_coded_20260813.xlsx` and documented in `trace_screening/README.md`. They are not joined to the v6A tables above and were not included in the paired quantitative analyses.

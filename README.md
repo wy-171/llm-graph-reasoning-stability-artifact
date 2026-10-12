@@ -1,8 +1,8 @@
 # Reproducibility artifact: repeated-run stability in LLM graph reasoning
 
-This repository contains the data and code for the focused v6A API pilot on repeated-run answer stability in graph reasoning. The study compared two separately submitted fresh-context runs with byte-identical prompts (`ES1` and `ES2`) and two diagnostic oracle conditions (`ORACLE_BASE` and `ORACLE_EDGE`).
+This repository contains the data and code reported for the manuscript's focused v6A API pilot on repeated-run answer stability in graph reasoning, together with the separate 96-run API screening set used for the descriptive observable-trace illustration. In the v6A panel, the study compared two separately submitted fresh-context runs with byte-identical prompts (`ES1` and `ES2`) and two diagnostic oracle conditions (`ORACLE_BASE` and `ORACLE_EDGE`).
 
-## Study snapshot
+## Quantitative panel snapshot
 
 - 20 collection blocks and 140 pre-generated task slots
 - 4 conditions per slot, for 560 planned calls
@@ -30,6 +30,7 @@ This repository contains the data and code for the focused v6A API pilot on repe
 | `scripts/` | Preserved collection and graph/prompt code from the archived study package |
 | `docs/DATA_DICTIONARY.md` | Field definitions and relationships among files |
 | `docs/PROVENANCE.md` | Collection-code hashes, known archival limitation, and integrity notes |
+| `trace_screening/` | Separate 96-run A–H API screening workbook, exact prompts, codebook, trace labels, and preserved collection scripts |
 | `CHECKSUMS.sha256` | SHA-256 checksums for every released file except the checksum list itself |
 
 ## Reproduce the reported summaries
@@ -46,6 +47,6 @@ The preserved collection script can also print its original diagnostic summaries
 
 ## Scope
 
-This release is limited to the focused quantitative v6A panel and the materials needed to audit and reproduce its reported results. Earlier exploratory rounds, unrelated test sets, working backups, and other project data are excluded.
+This release is limited to the focused quantitative v6A panel and the separate A–H screening set explicitly reported in the manuscript. Earlier exploratory rounds, the prior five-service web-client experiment, unrelated test sets, working backups, and other project data are excluded.
 
-See `docs/PROVENANCE.md` for the two collection-code hashes recorded in the call-level data and the unavailable earlier source snapshot.
+See `docs/PROVENANCE.md` for the two v6A collection-code hashes, the unavailable earlier v6A source snapshot, and the provenance of the A–H screening materials.

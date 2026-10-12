@@ -1,0 +1,35 @@
+Consider the following directed, weighted graph.
+
+Only the directed edges listed below exist:
+
+S → A: 1
+S → B: 1
+A → C: 2
+A → D: 2
+B → C: 2
+B → D: 2
+C → T: 3
+D → T: 3
+A → E: 3
+A → F: 3
+A → G: 3
+B → E: 3
+B → F: 3
+B → G: 3
+E → T: 3
+F → T: 3
+G → T: 3
+
+Find all distinct minimum-total-weight paths from S to T.
+
+For each reported path, provide:
+- the node sequence;
+- the total weight;
+- the number of edges.
+
+Briefly explain your method and include enough intermediate
+calculations to verify that the reported paths are all the
+minimum-weight paths.
+
+Equivalent wording and formatting are acceptable as long as
+the requested information is clear.
